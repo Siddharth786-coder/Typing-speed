@@ -1,0 +1,34 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.mainDiv {
+    width: 100%;
+    height: 100vh;
+    position: relative;
+    background: cornflowerblue;
+}
+
+.centerDiv {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+textarea {
+    background-color: skyblue;
+    border-radius: 10px 10px 10px 10px;
+}
+
+.mainbtn {
+    border-radius: 10px;
+    border: 2px solid black;
+    padding: 10px 20px;
+}
+
+
+}
